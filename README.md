@@ -1,11 +1,11 @@
 # Fix Version Generator
 
-Generador de fix versions utilizando la API de Jira. La logica actualmente implementada es la siguiente:
+Fix version generator using the Jira API. The logic currently implemented is as follows:
 
-Dado un PROJ en JIRA, un rango de fechas y la primer fix version de comienzo. Esta tool generará:
+Given a PROJ in JIRA, a date range and the first starting fix version. This tool will generate:
 
-- **Major releases**, Los major de cada semana.
-- **Minor releases**, Los minor de cada semana.
+- **Major releases**, each week's major.
+- **Minor releases**, each week's minor.
 
 ## Usage
 
